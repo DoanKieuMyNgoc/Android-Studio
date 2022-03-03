@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BT_2</string>
+    <string name="mes_dialog_exist"> Bạn muốn thoát không</string>
+    <string name="mes_dialog_exist_title">Thông Báo</string>
+    <string name="mes_dialog_ok">Có</string>
+    <string name="mes_dialog_cancel">Không</string>
+</resources>
