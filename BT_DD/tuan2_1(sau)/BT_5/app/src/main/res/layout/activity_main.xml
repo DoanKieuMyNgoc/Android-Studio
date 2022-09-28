@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin hóa đơn"
+        android:background="#D8C51C"
+        android:textSize="30dp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên khách hàng: " />
+        <EditText
+            android:id="@+id/et_tenKH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:text="Số lượng sách: " />
+
+        <EditText
+            android:id="@+id/et_slSach"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/chbox_VIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="Khách hàng là VIP" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:text="Thành tiền: " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#2C6E6565"
+            android:textAlignment="center"
+            android:textColor="#0BBC12"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_TinhTT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tính TT"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginRight="5dp"/>
+        <Button
+            android:id="@+id/btn_Tiep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiếp"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginRight="5dp"/>
+        <Button
+            android:id="@+id/btn_TT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thống Kê"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginRight="5dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin thống kê"
+        android:background="#D8C51C"
+        android:textSize="30dp"/>
+
+
+</LinearLayout>

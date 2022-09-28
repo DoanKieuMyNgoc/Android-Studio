@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Sản Phẩm"
+        android:id="@+id/menu_SP"></item>
+    <item
+        android:title="Loại Sản Phẩm"
+        android:id="@+id/menu_LSP">
+
+    </item>
+
+</menu>
